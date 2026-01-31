@@ -45,6 +45,10 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 
+CORS_ALLOWED_ORIGINS = [
+    "https://hrmsfrontendcode.vercel.app",
+]
+
 ROOT_URLCONF = "hrmsbackend.urls"
 
 ALLOWED_HOSTS = [
